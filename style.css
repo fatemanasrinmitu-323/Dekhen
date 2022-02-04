@@ -1,0 +1,71 @@
+/* font-family: 'Noto Serif', serif;
+font-family: 'Questrial', sans-serif;
+font-family: 'Quintessential', cursive; */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body, h1, h2, h3, h4, h5, p{
+    margin: 0;
+    padding: 0;
+    background: #dfe6e9;
+    width: 100%;
+    line-height: 1.5em;
+}
+.container {
+    padding: 150px 0 200px;
+    text-align: center;
+}
+.inner-body{
+    width: 70%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.container h1{
+    color: #d63031;
+    text-transform: uppercase;
+    font-family: 'Noto Serif', serif;
+    font-weight: bold;
+    display: inline-block;
+    cursor: pointer;
+}
+.container p{
+    font-size: 20px;
+    padding: 15px 0;
+    color:rgb(163, 10, 240);
+    cursor: pointer;
+}
+
+.first_button input{
+    background:#00cec9;
+    padding: 5px 30px;
+    color: #fff;
+    float: left;
+    margin-top: 30px;
+}
+.first_button input:hover{
+    color: #fff;
+}
+.second_button input{
+    background: #e84393;
+    padding: 5px 15px;
+    color: #fff;
+    float: right;
+    margin-top: 30px;
+}
+.second_button input:hover{
+   color: #fff;
+}
+.wish h2{
+    color: #e84393;
+}
+.wish h4{
+    color: #00d2d3;
+}
+.container a{
+    font-size: 18px;
+    padding-top: 10px;
+    color: #341f97;
+    font-weight: bold;
+}
